@@ -7,6 +7,7 @@ import openai
 key = ''
 
 # Reading the content of the file into a variable
+# Make sure no newline at the end of openai_key file
 with open('../openai_key', 'r') as file:
     key = file.read()
 
